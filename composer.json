@@ -1,0 +1,26 @@
+{
+    "name": "occ2/rest-presenter",
+    "description": "Abstract presenter for easy build REST API interfaces",
+    "homepage": "https://github.com/OCC2/RestPresenter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milan Onderka",
+            "email": "milan_onderka@occ2.cz",
+            "homepage": "http://occ2.cz",
+            "role": "Developer"
+        }
+    ],
+   "require": {
+        "php": ">=5.6",
+        "nette/nette": ">=2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "occ2\\RestPresenter\\": "src/"
+        },
+        "classmap": [
+            "src/RestPresenter.php"
+        ]
+    }
+}
